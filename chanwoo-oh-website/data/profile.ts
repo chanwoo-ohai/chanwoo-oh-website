@@ -15,7 +15,7 @@ export const profile = {
   status: { en: 'Undergraduate Student', ko: '학부 재학' } as L,
   graduation: { en: 'Expected Graduation: February 2027', ko: '졸업 예정: 2027년 2월' } as L,
   location: { en: 'Seoul, South Korea', ko: '대한민국 서울' } as L,
-  email: 'ericcwoh@naver.com',
+  email: 'chanwu2021@gmail.com',
   links: {
     linkedin: null as string | null, // e.g. 'https://www.linkedin.com/in/…'
     github: null as string | null, // e.g. 'https://github.com/…'

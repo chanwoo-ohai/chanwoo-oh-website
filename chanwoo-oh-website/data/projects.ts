@@ -213,65 +213,6 @@ export const projects: Project[] = [
     media: [],
     featured: false,
   },
-  {
-    slug: 'clipp',
-    number: '05',
-    title: 'CLIPP',
-    subtitle: { en: 'Magnetic Charging Cable for Wireless Earbuds', ko: '무선 이어폰용 자석 충전 케이블' },
-    category: { en: 'Product Innovation · Entrepreneurship', ko: '제품 혁신 · 창업' },
-    status: 'concept',
-    summary: {
-      en: 'A product concept addressing the inconvenience of wireless earbud battery depletion through a magnetic, wearable charging cable.',
-      ko: '무선 이어폰 배터리가 떨어지는 불편함을 착용형 자석 충전 케이블로 해결하려는 제품 콘셉트입니다.',
-    },
-    technologies: [],
-    links: { github: null, demo: null },
-    cover: null,
-    sections: [
-      {
-        key: 'overview',
-        body: {
-          en: 'This project explores how everyday technological frustrations can be transformed into practical product innovation through user-centered design.',
-          ko: '일상 속 기술의 불편함을 사용자 중심 설계를 통해 실용적인 제품 혁신으로 바꾸는 과정을 탐구합니다.',
-        },
-      },
-      {
-        key: 'problem',
-        body: {
-          en: 'Wireless earbuds run out of battery at inconvenient moments, and charging them usually means stopping use and carrying a separate case.',
-          ko: '무선 이어폰은 불편한 순간에 배터리가 떨어지고, 충전하려면 사용을 멈추고 케이스를 따로 챙겨야 합니다.',
-        },
-      },
-    ],
-    media: [],
-    featured: false,
-  },
-  {
-    slug: 'driveguard-ai',
-    number: '06',
-    title: 'DriveGuard AI',
-    subtitle: { en: 'Driver Drowsiness Detection', ko: '운전자 졸음 감지' },
-    category: { en: 'Computer Vision · Applied AI', ko: '컴퓨터 비전 · 응용 AI' },
-    status: 'planned',
-    summary: {
-      en: 'A proposed computer vision system designed to detect prolonged eye closure and potential driver drowsiness using image classification and real-time monitoring.',
-      ko: '이미지 분류와 실시간 모니터링으로 운전자의 장시간 눈 감김과 졸음을 감지하는 컴퓨터 비전 시스템을 계획하고 있습니다.',
-    },
-    technologies: ['Python', 'Convolutional Neural Networks', 'Computer Vision', 'Real-time Alert Systems'],
-    links: { github: null, demo: null },
-    cover: null,
-    sections: [
-      {
-        key: 'results',
-        body: {
-          en: 'This is a planned project. Development has not started yet.',
-          ko: '계획 중인 프로젝트이며, 아직 개발을 시작하지 않았습니다.',
-        },
-      },
-    ],
-    media: [],
-    featured: false,
-  },
 ];
 
 export const getProject = (slug: string) => projects.find((p) => p.slug === slug);
